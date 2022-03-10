@@ -33,7 +33,7 @@ void loop(){
         // on crée une impulsion petite dans une direction
         position = 82;
         monServo.write(position);  // le bras du servomoteur prend la position de la variable position
-        delay(500);  // on attend 10 millisecondes
+        delay(500);  // on attend 500 millisecondes
         commande = ' ';
         position = 88;
       }
@@ -42,7 +42,7 @@ void loop(){
         // on crée une impulsion petite dans une autre direction
         position = 93;
         monServo.write(position);  // le bras du servomoteur prend la position de la variable position
-        delay(500);  // on attend 5 millisecondes
+        delay(500);  // on attend 500 millisecondes
         commande = ' ';
         position = 88;
         }
